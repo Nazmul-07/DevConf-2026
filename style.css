@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.common-btn{
+    background: #1D4ED8;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 9px;
+    padding: 10px 26px;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 6%;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#575757 ;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    min-height:90vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    color: #FFFFFF;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero-content h1{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+.hero-content p{
+    margin-bottom: 160px;
+}
+.hero-content button{
+    margin-top: 100px;
+    padding: 12px 35px;
+}
+main{
+    margin: 40px 0;
+    padding:15px 6%;
+}
+.meet-sp{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.speakers{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+}
+.speaker-card img{
+    width:100%;
+    border-radius: 10px;
+}
+.speaker-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.sector{
+    color: #1D4ED8;
+    font-size: 13px;
+}
+.top{
+    text-align: center;
+    margin: 70px;
+}
+.pricing-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.pricing-card{
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid rgb(181, 178, 178);
+    border-radius: 10px;
+    padding: 30px;
+}
+.pricing-card button{
+    margin-top: 30px;
+    padding: 5px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.standard button{
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+}
+.pro button{
+    background: #1D4ED8;
+    color: #FFFFFF;
+    border: 1px solid #1D4ED8;
+    border: none;
+}
+.team button{
+    color: #575757;
+    border: 1px solid #575757;
+}
+.pro{
+    background: #0D1B2A;
+    color: #bcb5b5;
+}
+.pro .pro-p{
+    color: #60A5FA;
+}
+footer{
+    padding:  15px 6%;
+    background: #0D1B2A;
+
+}
+footer hr{
+    border: 1.5px solid black;
+}
+.f-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icons{
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.f-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+.f-bottom ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+.f-bottom ul a{
+    text-decoration: none;
+    color: black;
+}
