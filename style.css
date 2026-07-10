@@ -32,7 +32,7 @@ nav ul li a{
     color:#575757 ;
 }
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0, 0, 0, 0.5)), url('./assets/banner.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0, 0, 0, 0.3)), url('./assets/banner.jpg');
     min-height:90vh;
     display: grid;
     justify-content: center;
@@ -156,4 +156,23 @@ footer hr{
 .f-bottom ul a{
     text-decoration: none;
     color: black;
+}
+.cta{
+    background: #0D1B2A;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 80px 20px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+.cta h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.cta p{
+    font-size: 1.5rem;
+}
+.cta button{
+    margin-top: 30px;
+    padding: 15px 35px;
 }
